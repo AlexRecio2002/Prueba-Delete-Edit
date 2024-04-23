@@ -1,0 +1,38 @@
+[
+ {
+  "id": 1,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 101
+ },
+ {
+  "id": 2,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 102
+ },
+ {
+  "id": 3,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 103
+ },
+ {
+  "id": 4,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 104
+ },
+ {
+  "id": 5,
+  "marca": "Ford",
+  "modelo": "Fiesta",
+  "precio": 105
+ },
+ {
+  "id": 6,
+  "marca": "Chevrolet",
+  "modelo": "Corsa",
+  "precio": "106"
+ }
+]

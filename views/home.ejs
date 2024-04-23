@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otra pagina más</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Usuario</a></li>
+                <li><a href="#">Nosoros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <ul>
+            <% productos.forEach(producto => { %>
+                <li>
+                    <div><%= producto.marca %></div>
+                    <div><%= producto.modelo %></div>
+                    <div><%= producto.precio %></div>
+                    <!-- Agregar enlace a la página de detalles del producto -->
+                    <a href="/productos/<%= producto.id %>">Ver detalles</a>
+                </li>
+            <% }) %>
+        </ul>
+      </main>
+      <a href="/create"> Creación de vehículo</a>
+
+    <footer>
+        <p>Todos los derechos reservados &copy; 2024</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> Acá va el producto</p>
+
+    <form action="/productos/<%= producto.id %>?_method=DELETE" method="post">
+        <button type="submit" class="boton">Eliminar</button>
+    </form>
+
+    <!-- <a href = "/productos/<%=producto.id%>/edit"><button class = "boton">Editar Producto</button></a> -->
+
+    <form action="/productos/editar" method="post">
+        <input type="hidden" name="id" value="<%= producto.id %>">
+        <button type="submit" class="boton">Editar Producto</button>
+    </form>
+    
+    <a href="/productos">Volver a la lista de productos</a>
+
+    <!-- <a href="/editar"> Editar tu vehículo</a> -->
+    
+</body>
+</html>
